@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "u+8hpSMV47E=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kamec\\source\\repos\\LOLApi13A\\LOLApi13A\\LOLApi13A.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kamec\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
