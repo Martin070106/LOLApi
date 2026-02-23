@@ -35,7 +35,6 @@ namespace LOLWpf13A
 
         }
             
-
         private async Task LoadLanguage()
         {
             try
@@ -64,32 +63,7 @@ namespace LOLWpf13A
             }
         }
 
-        private async Task LoadChampions(string language = "en_US")
-        {
-            try
-            {
-                using (HttpClient client = new HttpClient())
-                {
-                    client.Timeout = TimeSpan.FromSeconds(30);
-                    string url = $"https://ddragon.leagueoflegends.com/cdn/{Program.version}/data/{language}/champion.json";
-                    var responseAPI = await client.GetStringAsync(url);
-                    var response = JsonSerializer.Deserialize<ChampionData>(responseAPI);
-                    Program.champions = response.Data.Values.ToList();
-                }
-            }
-            catch (HttpRequestException httpEx)
-            {
-                Console.WriteLine($"Kapcsolódási hiba: {httpEx.Message}");
-            }
-            catch (JsonException jsonEx)
-            {
-                Console.WriteLine($"JSON feldolgozási hiba: {jsonEx.Message}");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Hiba: {ex.Message}");
-            }
-        }
+        
 
         private async void cmbLanguage_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {

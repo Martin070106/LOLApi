@@ -26,3 +26,4 @@ C:\Users\kamec\source\repos\LOLApi13A\LOLWpf13A\obj\Debug\net8.0-windows\refint\
 C:\Users\kamec\source\repos\LOLApi13A\LOLWpf13A\obj\Debug\net8.0-windows\LOLWpf13A.pdb
 C:\Users\kamec\source\repos\LOLApi13A\LOLWpf13A\obj\Debug\net8.0-windows\LOLWpf13A.genruntimeconfig.cache
 C:\Users\kamec\source\repos\LOLApi13A\LOLWpf13A\obj\Debug\net8.0-windows\ref\LOLWpf13A.dll
+C:\Users\kamec\source\repos\LOLApi13A\LOLWpf13A\obj\Debug\net8.0-windows\LOLWpf13A.sourcelink.json

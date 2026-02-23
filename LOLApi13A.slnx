@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
   <Project Path="LOLApi13A/LOLApi13A.csproj" />
   <Project Path="LOLWpf13A/LOLWpf13A.csproj" />
 </Solution>
